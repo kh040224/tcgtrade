@@ -259,7 +259,7 @@ export default function App() {
                 type="text"
                 value={newTitle}
                 onChange={(e) => setNewTitle(e.target.value)}
-                placeholder="상품명 (필수)"
+                placeholder="닉네임 (필수)"
                 className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               />
@@ -274,7 +274,7 @@ export default function App() {
                         updatedItems[index] = e.target.value
                         setNewItems(updatedItems)
                       }}
-                      placeholder={index === 0 ? "상품 정보 (필수)" : "추가 상품 정보"}
+                      placeholder={index === 0 ? "오픈카톡 링크를 넣어주세요" : "추가 상품 정보"}
                       className="flex-1 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                       required={index === 0}
                     />
