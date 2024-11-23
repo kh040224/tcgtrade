@@ -199,7 +199,7 @@ export default function App() {
           className="bg-blue-500 text-white p-2 rounded-full shadow-lg hover:bg-blue-600 transition-colors"
           aria-label="피드백 QR 코드"
         >
-          QR
+          의견을 주세요!
         </button>
         {showQR && (
           <div className="absolute top-full right-0 mt-2 bg-white p-4 rounded-lg shadow-xl">
